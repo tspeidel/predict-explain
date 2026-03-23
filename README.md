@@ -55,4 +55,6 @@ Frames the historical roots of the predict/explain divide. Useful context becaus
 Explains why lagged variables help prediction but undermine explanation: they boost fit by absorbing autocorrelation yet have no clear causal meaning, and their inclusion often collapses or reverses the substantive coefficients. It’s a clear example of how a variable can improve prediction while distorting inference, reinforcing the need to be explicit about whether the modelling goal is explanatory or predictive.
 
 
+<br>
+
 <p id="note1"><sup>1</sup> See <a href="https://freakonometrics.hypotheses.org/19424">this illustrative blog post</a> by Arthur Charpentier</p>
