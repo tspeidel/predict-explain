@@ -27,6 +27,8 @@ A comparison table outlining key differences between explanatory (inferential) m
 | **Software ecosystem** | R, SAS, Stata, Mplus, markdown/Quarto, Shiny | Python (scikit‑learn, PyTorch, TensorFlow), Spark, Git, Docker |
 | **Effort** | Heavy upfront (theory, specification, diagnostics, interpretation) | Heavy downstream (tuning, validation, deployment in production) |
 | **Typical practitioner** | Scientist, statistician, methodologist, econometrician, social scientist | Computer scientist, software developer, ML/data engineer |
+| **Methods** | Surface + nosie (continuous, smooth)[^1] | Direct prediction (often discrete, jagged)[^1] |
+
 
 
 <br>
@@ -51,3 +53,6 @@ Frames the historical roots of the predict/explain divide. Useful context becaus
 
 •	Achen, C. H. (2000, July 13). Why lagged dependent variables can suppress the explanatory power of other independent variables. The University of Michigan, Ann Arbor. https://websites.umich.edu/~franzese/Achen.2000.LDVstealingExplanPower.pdf
 Explains why lagged variables help prediction but undermine explanation: they boost fit by absorbing autocorrelation yet have no clear causal meaning, and their inclusion often collapses or reverses the substantive coefficients. It’s a clear example of how a variable can improve prediction while distorting inference, reinforcing the need to be explicit about whether the modelling goal is explanatory or predictive.
+
+
+[^1] See [this illustrative blog post](https://freakonometrics.hypotheses.org/19424) by Arthur Charpentier
