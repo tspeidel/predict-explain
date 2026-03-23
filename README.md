@@ -27,7 +27,7 @@ A comparison table outlining key differences between explanatory (inferential) m
 | **Software ecosystem** | R, SAS, Stata, Mplus, markdown/Quarto, Shiny | Python (scikit‑learn, PyTorch, TensorFlow), Spark, Git, Docker |
 | **Effort** | Heavy upfront (theory, specification, diagnostics, interpretation) | Heavy downstream (tuning, validation, deployment in production) |
 | **Typical practitioner** | Scientist, statistician, methodologist, econometrician, social scientist | Computer scientist, software developer, ML/data engineer |
-| **Methods** | Surface + nosie (continuous, smooth)[^1] | Direct prediction (often discrete, jagged)<sup><a href="#note1">1</a></sup> |
+| **Methods** | Surface + nosie (continuous, smooth)<sup><a href="#note1">1</a></sup> | Direct prediction (often discrete, jagged)<sup><a href="#note1">1</a></sup> |
 
 
 
@@ -55,4 +55,4 @@ Frames the historical roots of the predict/explain divide. Useful context becaus
 Explains why lagged variables help prediction but undermine explanation: they boost fit by absorbing autocorrelation yet have no clear causal meaning, and their inclusion often collapses or reverses the substantive coefficients. It’s a clear example of how a variable can improve prediction while distorting inference, reinforcing the need to be explicit about whether the modelling goal is explanatory or predictive.
 
 
-<p id="note1"><sup>1</sup> See [this illustrative blog post](https://freakonometrics.hypotheses.org/19424) by Arthur Charpentier
+<p id="note1"><sup>1</sup> See <a href="https://freakonometrics.hypotheses.org/19424">this illustrative blog post</a> by Arthur Charpentier</p>
