@@ -3,11 +3,11 @@ A comparison table outlining key differences between explanatory (inferential) m
 
 | **Aspect** | **Explanatory / Inferential Model** | **Predictive / ML Model** |
 |------------|--------------------------------------|-----------------------------|
-| **Primary goal** | Understand relationships | Predict unseen outcomes |
+| **Primary goal** | Understand relationships. Scinetific truth (long lasting insight) | Predict unseen outcomes, prediction accuracy (possibly short term) |
 | **Target / focus** | Parameters (sign, magnitude, uncertainty) | Predictions (accuracy on new data) |
 | **Role of theory** | Theory/domain/substantive knowledge drives specification | Data drives specification |
 | **Causal claims** | Supports causal inference (with appropriate design) | Generally agnostic to causal inference |
-| **Variable / Feature selection** | Based on DAGs, prior and substantive knowledge | Based on predictive contribution |
+| **Variable / Feature selection** | Based on DAGs, prior and substantive knowledge, parsimoniuous, pre=specified | Based on predictive contribution, anti-parsimonious |
 | **Emphasis** | Bias control, interpretability, functional form | Variance control, accuracy |
 | **Decision Making** | May identify causal levers; supports intervention design and accountability | Drives operational decisions (allocation, classification, forecasting); limited basis for causal intervention |
 | **Coefficients** | Substantively interpreted; sign, magnitude, significance matter | Often incidental or unexamined |
@@ -28,7 +28,8 @@ A comparison table outlining key differences between explanatory (inferential) m
 | **Effort** | Heavy upfront (theory, specification, diagnostics, interpretation) | Heavy downstream (tuning, validation, deployment in production) |
 | **Typical practitioner** | Scientist, statistician, methodologist, econometrician, social scientist | Computer scientist, software developer, ML/data engineer |
 | **Methods** | Surface + nosie (continuous, smooth)<sup><a href="#note1">1</a></sup> | Direct prediction (often discrete, jagged)<sup><a href="#note1">1</a></sup> |
-
+| **Methods** | Parametric, Semi-parametric, Frequentist/Bayesian (supports causality) | Non-parametric (agnostic to causality) |
+| **Theory** | Theory of optimal inference (mle, Neyman–Pearson, Bayes) | Training/test paradigm |
 
 
 <br>
