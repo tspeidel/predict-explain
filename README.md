@@ -10,7 +10,7 @@ A comparison table outlining key differences between explanatory (inferential) m
 | **Variable / Feature selection** | Based on DAGs, prior and substantive knowledge, parsimoniuous, pre=specified | Based on predictive contribution, anti-parsimonious |
 | **Emphasis** | Bias control, interpretability, functional form | Variance control, accuracy |
 | **Decision Making** | May identify causal levers; supports intervention design and accountability | Drives operational decisions (allocation, classification, forecasting); limited basis for causal intervention |
-| **Coefficients** | Substantively interpreted; sign, magnitude, significance matter | Often incidental or unexamined |
+| **Coefficients** | Substantively interpreted; sign, magnitude, significance matter | Often incidental or unexamined. Many methods do not yield coefficients |
 | **Complexity** | Yes, if theoretically motivated | Yes, if it improves accuracy |
 | **Transparency** | Model is the product; fully inspectable | Model may be a black box; interpretability added post‑hoc |
 | **Risk at Scale** | Bias is visible in coefficients and subject to scrutiny; deployment is typically limited in scope | Bias can be hidden, systematically applied at scale, and amplified through feedback loops |
