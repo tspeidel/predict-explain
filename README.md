@@ -18,7 +18,7 @@ A comparison table outlining key differences between explanatory (inferential) m
 | **Collinearity** | Serious problem (inflates SEs, distorts estimates), leads to difficulties in interpretation | Often tolerable if predictions remain stable |
 | **Evaluation** | SEs, CIs, ICCs, hypothesis tests; AIC/BIC; c‑index for model selection | Cross‑validation error, RMSE, AUC, F1 |
 | **Residual diagnostics** | Central to model checking | Rarely examined beyond aggregate loss |
-| **Missing data treatment** | Model‑based (e.g. multiple imputation) with missingness mechanism assumptions | Pragmatic (imputation, surrogate splits, dropping) |
+| **Missing data treatment** | Model‑based (e.g. multiple imputation) with missingness mechanism assumptions. Vast literature on missing data | Pragmatic (imputation, surrogate splits, dropping) |
 | **Generalizability basis** | External validity via theory and design | External validity via representative test sets |
 | **Interaction with domain knowledge** | Required throughout | Optional; can be purely algorithmic |
 | **Size of data** | Thrives in small‑to‑moderate data via distributional assumptions and efficient estimation (MLE, REML) | Thrives in large data (data‑hungry) |
